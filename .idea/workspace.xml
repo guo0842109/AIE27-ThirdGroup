@@ -6,10 +6,14 @@
       <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/personal/pyechartstest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/personal/walktest.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/process/02二级分类_数据分析.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/process/04数据分析-宽高统计分析.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/process/06训练数据和验证数据可视化分布.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02垃圾分类_二级分类数据分析.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/02垃圾分类_二级分类数据分析.py" beforeDir="false" afterPath="$PROJECT_DIR$/personal/walktest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/02垃圾分类_二级分类数据分析-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02垃圾分类_二级分类数据分析.py" beforeDir="false" afterPath="$PROJECT_DIR$/personal/matplotlibtest.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,23 +22,43 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/AIE27_ThirdGroup$matplotlibtest.coverage" NAME="matplotlibtest Coverage Results" MODIFIED="1591236376659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/personal" />
     <SUITE FILE_PATH="coverage/AIE27_ThirdGroup$walktest.coverage" NAME="walktest Coverage Results" MODIFIED="1591168485571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/personal" />
     <SUITE FILE_PATH="coverage/AIE27_ThirdGroup$test.coverage" NAME="test Coverage Results" MODIFIED="1591148343602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AIE27_ThirdGroup$pyechartstest.coverage" NAME="pyechartstest Coverage Results" MODIFIED="1591235578321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/personal" />
+    <SUITE FILE_PATH="coverage/AIE27_ThirdGroup$04_.coverage" NAME="04数据分析-宽高统计分析 Coverage Results" MODIFIED="1591239930157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/process" />
     <SUITE FILE_PATH="coverage/AIE27_ThirdGroup$walktest__1_.coverage" NAME="walktest (1) Coverage Results" MODIFIED="1591168618139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/process" />
-    <SUITE FILE_PATH="coverage/AIE27_ThirdGroup$02_.coverage" NAME="02二级分类_数据分析 Coverage Results" MODIFIED="1591172232939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/process" />
+    <SUITE FILE_PATH="coverage/AIE27_ThirdGroup$02_.coverage" NAME="02二级分类_数据分析 Coverage Results" MODIFIED="1591258063481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/process" />
+    <SUITE FILE_PATH="coverage/AIE27_ThirdGroup$06.coverage" NAME="06训练数据和验证数据可视化分布 Coverage Results" MODIFIED="1591262003939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/process" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.py">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/process/06训练数据和验证数据可视化分布.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-351">
+              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/process/04数据分析-宽高统计分析.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-column="20" />
+              <folding>
+                <element signature="e#23#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/process/02二级分类_数据分析.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="179">
+              <caret line="32" column="14" lean-forward="true" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -51,7 +75,10 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+      <find>pic_file_name</find>
       <find>print</find>
+      <find>10</find>
+      <find>plt</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -67,15 +94,19 @@
         <option value="$PROJECT_DIR$/personal/walktets.py" />
         <option value="$PROJECT_DIR$/personal/walktest.py" />
         <option value="$PROJECT_DIR$/process/02垃圾分类_二级分类数据分析.py" />
+        <option value="$PROJECT_DIR$/personal/matplotlibtest.py" />
+        <option value="$PROJECT_DIR$/personal/pyechartstest.py" />
+        <option value="$PROJECT_DIR$/process/04数据分析-宽高统计分析.py" />
         <option value="$PROJECT_DIR$/process/02二级分类_数据分析.py" />
+        <option value="$PROJECT_DIR$/process/06训练数据和验证数据可视化分布.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="560" />
+    <option name="x" value="135" />
     <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="701" />
+    <option name="width" value="1080" />
+    <option name="height" value="654" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -95,7 +126,17 @@
             <path>
               <item name="AIE27-ThirdGroup" type="b2602c69:ProjectViewProjectNode" />
               <item name="AIE27-ThirdGroup" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AIE27-ThirdGroup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AIE27-ThirdGroup" type="462c0819:PsiDirectoryNode" />
               <item name="personal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AIE27-ThirdGroup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AIE27-ThirdGroup" type="462c0819:PsiDirectoryNode" />
+              <item name="process" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AIE27-ThirdGroup" type="b2602c69:ProjectViewProjectNode" />
@@ -135,29 +176,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.02二级分类_数据分析">
-    <configuration name="02垃圾分类_二级分类数据分析" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="AIE27-ThirdGroup" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/process/send.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.06训练数据和验证数据可视化分布">
     <configuration name="02二级分类_数据分析" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AIE27-ThirdGroup" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -180,29 +199,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="AIE27-ThirdGroup" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="walktest (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="04数据分析-宽高统计分析" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AIE27-ThirdGroup" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -215,7 +212,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/process/02垃圾分类_二级分类数据分析.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/process/04数据分析-宽高统计分析.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -224,7 +221,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="walktest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="06训练数据和验证数据可视化分布" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AIE27-ThirdGroup" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/process" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/process/06训练数据和验证数据可视化分布.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="matplotlibtest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AIE27-ThirdGroup" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -237,7 +256,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/personal/walktest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/personal/matplotlibtest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pyechartstest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AIE27-ThirdGroup" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/personal" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/personal/pyechartstest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -248,11 +289,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.06训练数据和验证数据可视化分布" />
         <item itemvalue="Python.02二级分类_数据分析" />
-        <item itemvalue="Python.02垃圾分类_二级分类数据分析" />
-        <item itemvalue="Python.walktest (1)" />
-        <item itemvalue="Python.walktest" />
-        <item itemvalue="Python.test" />
+        <item itemvalue="Python.04数据分析-宽高统计分析" />
+        <item itemvalue="Python.matplotlibtest" />
+        <item itemvalue="Python.pyechartstest" />
       </list>
     </recent_temporary>
   </component>
@@ -268,12 +309,12 @@
       <updated>1591148241948</updated>
       <workItem from="1591148243696" duration="3727000" />
       <workItem from="1591166751764" duration="1742000" />
-      <workItem from="1591168643899" duration="3892000" />
+      <workItem from="1591168643899" duration="19923000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9361000" />
+    <option name="totallyTimeSpent" value="25392000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -285,7 +326,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="708" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="706" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.2536349" />
@@ -293,44 +334,44 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23701298" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.15309446" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32840723" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32840723" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32740214" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32840723" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32840723" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.48042706" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32740214" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.3513732" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2536349" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2536349" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32840723" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.15309446" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32840723" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32840723" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32740214" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32840723" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32840723" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.48042706" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32740214" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.3513732" />
       <window_info anchor="right" id="Database" order="4" />
     </layout-to-restore>
   </component>
@@ -389,10 +430,86 @@
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../../pythonworkspace/demo/AIE27-ThirdGroup/lib/python2.7/site-packages/pyecharts/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/personal/pyechartstest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/personal/matplotlibtest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/torch/__init__.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2483">
+          <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+          <folding>
+            <element signature="e#41#129#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/40_garbage_classify-for-pythorch/val/20/img_9588.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/40_garbage_classify-for-pythorch/val/20/img_9592.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/40_garbage_classify-for-pythorch/val/19/img_9166.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/40_garbage_classify-for-pythorch/val/19/img_9177.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/40_garbage_classify-for-pythorch/val.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="2952" column="54" lean-forward="true" selection-start-line="2952" selection-start-column="54" selection-end-line="2952" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/40_garbage_classify-for-pythorch/train.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-177133">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/process/04数据分析-宽高统计分析.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="20" />
+          <folding>
+            <element signature="e#23#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/process/06训练数据和验证数据可视化分布.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-351">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/process/02二级分类_数据分析.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="179">
+          <caret line="32" column="14" lean-forward="true" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
         </state>
       </provider>
     </entry>
