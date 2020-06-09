@@ -7,6 +7,7 @@
 # pytorch相关库
 import matplotlib
 
+
 import torch
 import torchvision
 from torchvision import transforms
@@ -14,6 +15,8 @@ from torchvision import transforms
 print('torch.__version__ = ',torch.__version__)
 print('torchvision.__version__ = ',torchvision.__version__)
 
+# torch.__version__ =  1.1.0
+# torchvision.__version__ =  0.3.0
 # 3-加载图片数据
 
 file_name= "../data/40_garbage_classify-for-pythorch/tarin/0/img_4.jpg"
