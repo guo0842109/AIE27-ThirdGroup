@@ -85,3 +85,27 @@ print(image.shape)
 
 if __name__=='__main__':
     print('hello')
+
+    # 模型初始化
+    model_name = args.model_name
+    num_classes = args.num_classes
+    # 初始化模型
+    model_ft = initial_model(model_name,num_classes,feature_extract = True)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
