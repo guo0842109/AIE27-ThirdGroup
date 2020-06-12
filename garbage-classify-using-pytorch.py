@@ -31,11 +31,52 @@ from sklearn import metrics
 
 
 
-# 2.数据的整体探测
-base_path = ''
+# 2.数据的整体探测（通过目录查询目录下的整体格式）
+base_path = 'data/garbage_classify-for-pytorch'
+for dirpaths,dirnames,filenamses in walk(base_path):
+    if(len(filenamses)>0):
+        print('* '*60)
+        print('dirpaths = ',dirpaths)
+        print('dirnames = ',dirnames)
+        print('filenamses = ',filenamses)
+
 # 3.数据封装ImageFolder格式
+TRAIN = "{}/train".format(base_path)
+VALID = "{}/val".format(base_path)
+print('train data_path = ',TRAIN)
+print('val data_path = ',VALID)
+
+# root:根目录的路径
+train_data = datasets.ImageFolder(root = TRAIN,transform=preprocess)
+val_data = datasets.ImageFolder(root = VALID,transform=preprocess)
+
+# print(train_data)
+assert train_data.class_to_idx.keys() == val_data.class_to_idx.keys()
+print('imgs = ',train_data.imgs[:2])
 
 # 4.批量的数据加载
+batch_size = 12
+num_workers = 2
+
+from torch.utils.data.dataloader import DataLoader
+
+train_loader = DataLoader(
+    train_data,batch_size = batch_size,
+    num_workers = num_workers,
+    shuffle = True
+)
+
+val_loader = DataLoader(
+    train_data,batch_size = batch_size,
+    num_workers = num_workers,
+    shuffle = False
+)
+
+# image,lan
+image,label = next(iter(train_loader))
+
+print(label)
+print(image.shape)
 
 # 5.定义模型训练和验证方法
 

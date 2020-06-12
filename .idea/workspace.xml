@@ -2,15 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="facfcd3a-711d-4e40-b3bc-7eec85a6a727" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/args.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/garbage-classify-using-pytorch.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ghb-process/一级数据分析.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/eval.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/json_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/logger.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/misc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/garbage_classify-for-pytorch/train/0/img_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/garbage_classify-for-pytorch/train/0/img_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/garbage_classify-for-pytorch/train/0/img_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/garbage_classify-for-pytorch/train/0/img_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/garbage_classify-for-pytorch/train/1/img_2205.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/garbage_classify-for-pytorch/train/1/img_2206.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/garbage_classify-for-pytorch/train/1/img_2208.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/garbage_classify-for-pytorch/train/1/img_2210.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/garbage_classify-for-pytorch/train/2/img_6733.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/garbage_classify-for-pytorch/train/2/img_6735.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/garbage_classify-for-pytorch/train/2/img_6737.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/garbage_classify-for-pytorch/train/2/img_6738.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/garbage_classify-for-pytorch/train/2/img_6740.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/garbage_classify-for-pytorch/train/3/img_18235.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/garbage_classify-for-pytorch/train/3/img_18237.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/garbage_classify-for-pytorch/train/3/img_18238.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/garbage_classify-for-pytorch/train/3/img_18239.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/garbage_classify-for-pytorch/train/3/img_18241.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/garbage_classify-for-pytorch/val/0/img_19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/garbage_classify-for-pytorch/val/0/img_34.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/garbage_classify-for-pytorch/val/0/img_43.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/garbage_classify-for-pytorch/val/0/img_49.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/garbage_classify-for-pytorch/val/0/img_51.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/garbage_classify-for-pytorch/val/1/img_2262.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/garbage_classify-for-pytorch/val/1/img_2267.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/garbage_classify-for-pytorch/val/1/img_2278.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/garbage_classify-for-pytorch/val/1/img_2293.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/garbage_classify-for-pytorch/val/2/img_6744.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/garbage_classify-for-pytorch/val/2/img_6755.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/garbage_classify-for-pytorch/val/2/img_6782.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/garbage_classify-for-pytorch/val/2/img_6806.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/garbage_classify-for-pytorch/val/2/img_6810.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/garbage_classify-for-pytorch/val/3/img_18237.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/garbage_classify-for-pytorch/val/3/img_18285.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/garbage_classify-for-pytorch/val/3/img_18301.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/garbage_classify-for-pytorch/val/3/img_18307.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/garbage_classify-for-pytorch/val/3/img_18309.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/garbage-classify-using-pytorch.py" beforeDir="false" afterPath="$PROJECT_DIR$/garbage-classify-using-pytorch.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +55,7 @@
     <SUITE FILE_PATH="coverage/AIE27_ThirdGroup$plttest.coverage" NAME="plttest Coverage Results" MODIFIED="1591682620051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/personal" />
     <SUITE FILE_PATH="coverage/AIE27_ThirdGroup$04_.coverage" NAME="04数据分析-宽高统计分析 Coverage Results" MODIFIED="1591239930157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/process" />
     <SUITE FILE_PATH="coverage/AIE27_ThirdGroup$04.coverage" NAME="04垃圾分类数据预处理与可视化 Coverage Results" MODIFIED="1591683302937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/process" />
-    <SUITE FILE_PATH="coverage/AIE27_ThirdGroup$garbage_classify_using_pytorch.coverage" NAME="garbage-classify-using-pytorch Coverage Results" MODIFIED="1591775689897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AIE27_ThirdGroup$garbage_classify_using_pytorch.coverage" NAME="garbage-classify-using-pytorch Coverage Results" MODIFIED="1591927930115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AIE27_ThirdGroup$matplotlibtest.coverage" NAME="matplotlibtest Coverage Results" MODIFIED="1591236376659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/personal" />
     <SUITE FILE_PATH="coverage/AIE27_ThirdGroup$walktest.coverage" NAME="walktest Coverage Results" MODIFIED="1591168485571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/personal" />
     <SUITE FILE_PATH="coverage/AIE27_ThirdGroup$0_01.coverage" NAME="0_01数据预处理 Coverage Results" MODIFIED="1591344126423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ghb-process" />
@@ -54,23 +84,53 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ghb-process/一级数据分析.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/process/facebook-WSL-images-resnext.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="272" column="5" lean-forward="true" selection-start-line="272" selection-start-column="5" selection-end-line="272" selection-end-column="5" />
+            <state relative-caret-position="1140">
+              <caret line="81" column="28" selection-start-line="81" selection-start-column="28" selection-end-line="81" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/garbage-classify-using-pytorch.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="77" column="11" selection-start-line="77" selection-start-column="11" selection-end-line="77" selection-end-column="11" />
               <folding>
-                <element signature="e#1506#1515#0" expanded="true" />
+                <element signature="e#37#47#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/process/02二级分类_数据分析.py">
+        <entry file="file://$PROJECT_DIR$/data/ImageNet1k_label.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="91" selection-start-line="91" selection-end-line="104" selection-end-column="10" />
+            <state relative-caret-position="3795">
+              <caret line="253" column="15" selection-start-line="253" selection-start-column="15" selection-end-line="253" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/transform.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/process/04垃圾分类数据预处理与可视化.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2535">
+              <caret line="171" column="1" selection-start-line="167" selection-start-column="15" selection-end-line="171" selection-end-column="1" />
+              <folding>
+                <element signature="e#30#48#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -100,8 +160,11 @@
       <find>predict</find>
       <find>Image.ope</find>
       <find>ImageNet_dict</find>
-      <find>img_label_dict</find>
       <find>matp</find>
+      <find>img_label_dict</find>
+      <find>numbe</find>
+      <find>number_workers</find>
+      <find>utils</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/process</dir>
@@ -137,13 +200,13 @@
         <option value="$PROJECT_DIR$/args.py" />
         <option value="$PROJECT_DIR$/model.py" />
         <option value="$PROJECT_DIR$/utils/json_utils.py" />
-        <option value="$PROJECT_DIR$/garbage-classify-using-pytorch.py" />
         <option value="$PROJECT_DIR$/ghb-process/一级数据分析.py" />
+        <option value="$PROJECT_DIR$/garbage-classify-using-pytorch.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="251" />
+    <option name="x" value="305" />
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="706" />
@@ -162,6 +225,24 @@
             <path>
               <item name="AIE27-ThirdGroup" type="b2602c69:ProjectViewProjectNode" />
               <item name="AIE27-ThirdGroup" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AIE27-ThirdGroup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AIE27-ThirdGroup" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AIE27-ThirdGroup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AIE27-ThirdGroup" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="garbage_classify-for-pytorch" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AIE27-ThirdGroup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AIE27-ThirdGroup" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="garbage_classify-for-pytorch" type="462c0819:PsiDirectoryNode" />
+              <item name="train" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AIE27-ThirdGroup" type="b2602c69:ProjectViewProjectNode" />
@@ -195,6 +276,7 @@
       <recent name="$PROJECT_DIR$/process" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data/garbage_classify-for-pytorch" />
       <recent name="$PROJECT_DIR$/utils" />
       <recent name="$PROJECT_DIR$/data" />
       <recent name="$PROJECT_DIR$/process" />
@@ -212,7 +294,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.一级数据分析">
+  <component name="RunManager" selected="Python.garbage-classify-using-pytorch">
     <configuration name="一级数据分析" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AIE27-ThirdGroup" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -325,8 +407,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.一级数据分析" />
         <item itemvalue="Python.garbage-classify-using-pytorch" />
+        <item itemvalue="Python.一级数据分析" />
         <item itemvalue="Python.app_WSL_images_resnext" />
         <item itemvalue="Python.test_app_wsl" />
         <item itemvalue="Python.facebook-WSL-images-resnext" />
@@ -348,12 +430,13 @@
       <workItem from="1591168643899" duration="29110000" />
       <workItem from="1591610660529" duration="17604000" />
       <workItem from="1591774592506" duration="1837000" />
-      <workItem from="1591776676726" duration="2655000" />
+      <workItem from="1591776676726" duration="15905000" />
+      <workItem from="1591927840350" duration="47000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56675000" />
+    <option name="totallyTimeSpent" value="69972000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -365,16 +448,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="459" y="26" width="1280" height="706" extended-state="0" />
+    <frame x="305" y="23" width="1280" height="706" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25686592" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.29725364" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.12052117" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.19480519" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.12052117" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.256993" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32736155" />
@@ -387,17 +470,17 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.28513733" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.3861066" />
       <window_info anchor="right" id="Database" order="4" weight="0.32976827" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25686592" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29725364" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31433225" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.19480519" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.12052117" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.256993" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32736155" />
@@ -410,7 +493,7 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.10016155" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.3861066" />
       <window_info anchor="right" id="Database" order="4" weight="0.32976827" />
     </layout-to-restore>
   </component>
@@ -418,20 +501,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/personal/pyechartstest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/personal/matplotlibtest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/40_garbage_classify-for-pythorch/val/20/img_9588.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -509,13 +578,6 @@
     <entry file="file://$PROJECT_DIR$/data/40_garbage_classify-for-pythorch/tarin/2/img_830.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/process/06训练数据和验证数据可视化分布.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/matplotlib/figure.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="146">
@@ -527,23 +589,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="22" column="21" selection-end-line="41" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/torchvision/datasets/folder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="102" column="13" selection-start-line="102" selection-start-column="13" selection-end-line="102" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/torch/__init__.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="67" column="23" lean-forward="true" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
-          <folding>
-            <element signature="e#41#129#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -620,9 +665,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/ImageNet1k_label.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/ghb-process/test_app_wsl.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1095">
@@ -652,27 +694,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/process/facebook-WSL-images-resnext.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1185">
-          <caret line="84" column="6" lean-forward="true" selection-start-line="84" selection-start-column="6" selection-end-line="84" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/resnet.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="310" column="4" selection-start-line="310" selection-start-column="4" selection-end-line="310" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/process/app_WSL_images_resnext.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="69" column="24" lean-forward="true" selection-start-line="69" selection-start-column="24" selection-end-line="69" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -683,13 +708,6 @@
           <folding>
             <element signature="e#43#202#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/transform.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -741,26 +759,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/garbage-classify-using-pytorch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="34" column="14" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
-          <folding>
-            <element signature="e#36#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/process/04垃圾分类数据预处理与可视化.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-989">
-          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
-          <folding>
-            <element signature="e#30#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/process/01垃圾分类_一级分类数据分布.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="83">
@@ -775,12 +773,101 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data/4_garbage-classify-for-pytorch/train.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2536">
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ghb-process/一级数据分析.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="272" column="5" lean-forward="true" selection-start-line="272" selection-start-column="5" selection-end-line="272" selection-end-column="5" />
+        <state relative-caret-position="165">
+          <caret line="173" selection-start-line="173" selection-end-line="173" />
           <folding>
             <element signature="e#1506#1515#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/torchvision/datasets/vision.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/torchvision/datasets/folder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="190" column="5" selection-start-line="188" selection-start-column="7" selection-end-line="190" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/torch/__init__.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="67" column="23" lean-forward="true" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
+          <folding>
+            <element signature="e#41#129#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/process/06训练数据和验证数据可视化分布.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-709">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/process/app_WSL_images_resnext.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="71" column="19" lean-forward="true" selection-start-line="71" selection-start-column="19" selection-end-line="71" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/process/facebook-WSL-images-resnext.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="81" column="28" selection-start-line="81" selection-start-column="28" selection-end-line="81" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/ImageNet1k_label.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3795">
+          <caret line="253" column="15" selection-start-line="253" selection-start-column="15" selection-end-line="253" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/transform.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/process/04垃圾分类数据预处理与可视化.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2535">
+          <caret line="171" column="1" selection-start-line="167" selection-start-column="15" selection-end-line="171" selection-end-column="1" />
+          <folding>
+            <element signature="e#30#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/garbage-classify-using-pytorch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="77" column="11" selection-start-line="77" selection-start-column="11" selection-end-line="77" selection-end-column="11" />
+          <folding>
+            <element signature="e#37#47#0" expanded="true" />
           </folding>
         </state>
       </provider>
