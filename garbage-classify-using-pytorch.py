@@ -72,13 +72,52 @@ val_loader = DataLoader(
     shuffle = False
 )
 
-# image,lan
+# image,label
 image,label = next(iter(train_loader))
 
 print(label)
 print(image.shape)
 
 # 5.定义模型训练和验证方法
+
+def run(model,train_loader,val_loader):
+    '''
+    模型训练和预测
+    :param model: 初始化的model
+    :param train_loader: 训练集数据
+    :param val_loader: 验证集数据
+    :return:
+    '''
+
+    # 初始化变量参数
+
+    # 模型保存的变量
+    global best_acc
+    # 训练C类别的分类问题，我们使用CrossEntropyloss
+    criterion = nn.CrossEntropyLoss()
+    # torch.optim 是一个各种优化算法库
+    # optimizer对象能保存当前的参数状态并且基于计算梯度更新参数
+    optimizer = get_optimizer(model,args)
+
+
+
+    #加载checkpoint信息：model的断点续传 ，可以指定迭代的开始位置进行重新训练
+
+
+
+    # 模型评估：混淆矩阵；准确率、召回率、F1-score
+
+
+    # 模型的训练和验证
+    for epoch in range(1,args.epochs+1):
+        # train
+        train(train_loader,model,criterion,optimizer)
+
+        # val
+
+        pass
+
+    pass
 
 
 # 入口程序
@@ -91,6 +130,11 @@ if __name__=='__main__':
     num_classes = args.num_classes
     # 初始化模型
     model_ft = initial_model(model_name,num_classes,feature_extract = True)
+
+    print(model_ft)
+
+    #模型训练和评估
+    run(model_ft,train_loader,val_loader)
 
 
 

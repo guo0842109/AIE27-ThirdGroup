@@ -1,13 +1,159 @@
+# 导入模型定义方法
 import models
+# 导入Torch先关包
 import torch
 import torch.nn as nn
 
+# 导入工具类
+from utils.eval import accuracy
+from utils.misc import AverageMeter
 
-def train():
-    pass
+# 导入进度条
+from progress.bar import Bar
+
+import time
+
+import numpy as np
+
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 
-def evaluate():
+def train(train_loader, model, criterion, optimizer):
+    '''
+    模型训练
+    :param train_loader:
+    :param model:
+    :param criterion:
+    :param optimizer:
+    :return:
+    '''
+
+    # 定义保存更新变量
+    data_time = AverageMeter()
+    batch_time = AverageMeter()
+    losses = AverageMeter()
+    top1 = AverageMeter()
+    end = time.time()
+
+    # # # # # # #
+    # train the model
+    # # # # # # #
+    model.train()
+    # 循环每批数据，然后进行模型的训练
+
+    # 定义bar变量
+    bar = Bar('processing',max =len(train_loader) )
+
+    for batch_index, (inputs, targets) in enumerate(train_loader):
+        # move tensors to GPU if cuda is_available
+        inputs, targets = inputs.to(device), targets.to(device)
+        # 在进行反向传播之前，我们使用zero_grad方法进行清空梯度
+        optimizer.zero_grad()
+        # 模型的预测
+        outputs = model(inputs)
+        # 计算loss
+        loss = criterion(outputs, targets)
+
+        # 计算acc和变量的更新操作
+        prec1, _ = accuracy(outputs.data, targets.data, topk=(1, 1))
+
+        # backward pass
+        loss.backward()
+        # perform as single optimization step(paramter update)
+        optimizer.step()
+        losses.update(loss.item(), inputs.size(0))
+        top1.update(prec1.item(), inputs.size(0))
+        batch_time.update(time.time() - end)
+        end = time.time()
+
+        # plot progress
+        # 把主要的参数打包放进bar
+        # plot progress
+        bar.suffix = '({batch}/{size}) Data: {data:.3f}s | Batch: {bt:.3f}s | Total: {total:} | ETA: {eta:} | Loss: {loss:.4f} | top1: {top1: .4f}'.format(
+            batch=batch_index + 1,
+            size=len(train_loader),
+            data=data_time.val,
+            bt=batch_time.val,
+            total=bar.elapsed_td,
+            eta=bar.eta_td,
+            loss=losses.avg,
+            top1=top1.avg
+        )
+        bar.next()
+    return (losses.avg, top1.avg)
+
+
+def evaluate(val_loader,model,criterion,test = None):
+    '''
+    模型评估
+    :param val_loader:
+    :param model:
+    :param criterion:
+    :param test:
+    :return:
+    '''
+
+    global best_acc
+    batch_time = AverageMeter()
+    data_time = AverageMeter()
+    losses = AverageMeter()
+    top1 = AverageMeter()
+
+
+    predict_all  = np.array([],dtype=int)
+    labels_all = np.array([],dtype=int)
+    # # # # # # #
+    # val the model
+    # # # # # # #
+    model.eval()
+
+    # 循环每批数据，然后进行模型的训练
+    # 定义bar变量
+    bar = Bar('processing', max=len(val_loader))
+    for batch_index, (inputs, targets) in enumerate(val_loader):
+        data_time.update(time.time() - end)
+        # move tensors to GPU if cuda is_available
+        inputs, targets = inputs.to(device), targets.to(device)
+
+        # 模型的预测
+        outputs = model(inputs)
+        # 计算loss
+        loss = criterion(outputs, targets)
+
+        # 计算acc和变量的更新操作
+        prec1, _ = accuracy(outputs.data, targets.data, topk=(1, 1))
+
+
+        losses.update(loss.item(), inputs.size(0))
+        top1.update(prec1.item(), inputs.size(0))
+        batch_time.update(time.time() - end)
+        end = time.time()
+        # 评估混淆矩阵的数据
+        targets = targets.data.cpu().numpy()#真实数据的y数值
+        predict = torch.max(outputs.data,1)[1].cpu().numpy()#预测数据y数值
+        labels_all = np.append(labels_all,targets)#数据赋值
+        predict_all = np.append(predict_all,predict)
+
+        # plot progress
+        # 把主要的参数打包放进bar
+        # plot progress
+        bar.suffix = '({batch}/{size}) Data: {data:.3f}s | Batch: {bt:.3f}s | Total: {total:} | ETA: {eta:} | Loss: {loss:.4f} | top1: {top1: .4f}'.format(
+            batch=batch_index + 1,
+            size=len(val_loader),
+            data=data_time.val,
+            bt=batch_time.val,
+            total=bar.elapsed_td,
+            eta=bar.eta_td,
+            loss=losses.avg,
+            top1=top1.avg
+        )
+        bar.next()
+
+
+    if test:
+        return (losses.avg, top1.avg,predict_all,labels_all)
+    return (losses.avg, top1.avg)
+
     pass
 
 
